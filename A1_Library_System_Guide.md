@@ -26,7 +26,7 @@ Before writing any complex logic, we need to build our **data containers**. The 
 | `Book`          | `isbn`, `title`, `author`, `publishYear`                                       |
 | `Member`        | `memberID`, `firstName`, `lastName`, `birthYear`                               |
 | `BorrowRecord`  | `Book` object, `Member` object, `recordNo`, `fineCode`, `severity`, `baseFine` |
-| `YourMainClass` | Contains the `main` method and all arrays                                      |
+| `LibrarySystem` | Contains the `main` method and all arrays                                      |
 
 > 💡 **Tip:** `BorrowRecord` is the most complex class because it _contains_ a `Book` object and a `Member` object. This is called **composition** — one of the key OOP concepts being tested here.
 
