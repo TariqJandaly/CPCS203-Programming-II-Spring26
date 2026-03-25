@@ -26,7 +26,7 @@ Before writing any complex logic, we need to build our **data containers**. The 
 | `Book`          | `isbn`, `title`, `author`, `publishYear`                         | constructors, getters/setters, `toString()`                                                                 |
 | `Member`        | `memberID`, `firstName`, `lastName`, `birthYear`                 | constructors, getters/setters, `toString()`                                                                 |
 | `BorrowRecord`  | `recordNo`, `book`, `member`, `fineCode`, `severity`, `baseFine` | constructors, `calculateFinalFine()`, `toString()`                                                          |
-| `YourMainClass` | All arrays as fields                                             | `addBook()`, `addMember()`, `addFineRule()`, `generateBorrow()`, `printBorrow()`, `printBorrowsPerMember()` |
+| `LibrarySystem` | All arrays as fields                                             | `addBook()`, `addMember()`, `addFineRule()`, `generateBorrow()`, `printBorrow()`, `printBorrowsPerMember()` |
 
 > 💡 **Tip:** `BorrowRecord` is the most complex class because it _contains_ a `Book` object and a `Member` object. This is called **composition** — one of the key OOP concepts being tested here.
 
